@@ -1,0 +1,30 @@
+# YOLOv8 Dataset Configuration
+path: E:\denso_adas\dataset
+train: E:\denso_adas\dataset\train\images
+val: E:\denso_adas\dataset\train\images  # Using train for validation (you can create a separate val folder later)
+
+# Classes
+nc: 22
+names:
+  0: dog
+  1: person
+  2: cat
+  3: tv
+  4: car
+  5: meatballs
+  6: marinara sauce
+  7: tomato soup
+  8: chicken noodle soup
+  9: french onion soup
+  10: chicken breast
+  11: ribs
+  12: pulled pork
+  13: hamburger
+  14: cavity
+  15: audi
+  16: hyundai
+  17: mahindra
+  18: rolls royce
+  19: swift
+  20: tata
+  21: toyota
